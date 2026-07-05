@@ -1,6 +1,6 @@
 # Evidence-Based Decision Framework
 
-Version: 1.0 Stable
+Version: 1.1
 
 ---
 
@@ -8,27 +8,36 @@ Version: 1.0 Stable
 
 The Evidence-Based Decision Framework is a structured approach for making high-confidence decisions under uncertainty.
 
-Although it was originally developed for purchase decisions, its principles apply to any decision involving incomplete information, trade-offs, and risk.
+Although originally developed for purchasing decisions, its principles apply to any decision involving incomplete information, trade-offs, and uncertainty.
 
-The framework is designed to maximize expected value rather than optimize for cost, popularity, or premium positioning.
+The objective is not to optimize for:
+
+- lowest cost
+- premium positioning
+- popularity
+- feature count
+
+Instead, the framework aims to maximize decision quality by relying on the best available evidence.
 
 ---
 
 # Philosophy
 
-People rarely regret spending a little more.
+People rarely regret spending slightly more.
 
 People regret making decisions based on poor reasoning.
 
-This framework is built around one simple principle:
+This framework is built around one central principle:
 
-> Make the highest-confidence decision supported by available evidence.
+> Make the most rational decision supported by the best available evidence at the time.
 
-Not the cheapest decision.
+The objective is **not** to always be right.
 
-Not the most premium decision.
+The objective is to make decisions that remain explainable and defensible given the knowledge available when they were made.
 
-Not the most popular decision.
+New evidence may change future decisions.
+
+That does not make previous decisions wrong.
 
 ---
 
@@ -36,11 +45,11 @@ Not the most popular decision.
 
 ## 1. Start with the problem, not the solution.
 
-Never evaluate options before understanding the actual problem.
-
-People don't buy products.
+People do not buy products.
 
 They buy solutions.
+
+Always identify the real problem before evaluating options.
 
 Example:
 
@@ -53,58 +62,54 @@ It is about:
 - supporting healthy child development
 - increasing comfort
 
-Only after the real problem is defined should products be evaluated.
-
 ---
 
-## 2. Separate facts from preferences.
+## 2. Separate objective evidence from subjective preference.
 
-Every criterion belongs to one of two categories.
+Every evaluation criterion belongs to one of two categories.
 
-### Objective Evidence
+### Objective
 
 - safety
-- durability
-- engineering
 - reliability
-- performance
-- testing
-- verified long-term reviews
-- warranty
+- engineering
+- durability
+- verified performance
+- long-term reviews
 
-### Subjective Preference
+### Subjective
 
 - appearance
 - color
-- design
 - style
-- personal taste
+- aesthetics
+- personal preference
 
-Objective evidence always has higher priority.
+Objective evidence should always have higher priority.
 
-Preferences should only influence decisions after objective requirements have been satisfied.
+Preferences should influence decisions only after objective requirements have been satisfied.
 
 ---
 
 ## 3. Reduce uncertainty before comparing options.
 
-Avoid asking:
+Do not ask:
 
-> Which option is cheaper?
+> Which option is better?
 
-Instead ask:
+Ask:
 
 > What don't I know yet?
 
-Examples
+Examples:
 
 - Is it genuine?
 - Is the seller trustworthy?
-- Are there long-term reliability reports?
+- Are there long-term reviews?
 - Are there known issues?
-- Is support reliable?
+- Is customer support reliable?
 
-Reduce uncertainty before comparing prices.
+Reduce uncertainty before comparing value.
 
 ---
 
@@ -112,53 +117,81 @@ Reduce uncertainty before comparing prices.
 
 Price is only one component of cost.
 
-Total Cost includes:
+Consider total cost.
 
-- purchase cost
+Examples:
+
+- purchase price
+- replacement cost
 - maintenance
-- replacement
-- research time
 - health impact
 - productivity impact
+- research effort
 - future regret
 
-The objective is:
+Always maximize:
 
 Expected Value
 
-÷
+divided by
 
-Total Cost
-
----
-
-## 5. Minimize future regret.
-
-Uncertainty can never be eliminated completely.
-
-Instead of asking:
-
-> What is the perfect decision?
-
-Ask:
-
-> Which decision am I least likely to regret six months from now?
+Total Cost.
 
 ---
 
-# Decision Framework
+## 5. Replace heuristics with understanding.
+
+When information is limited,
+
+heuristics are useful.
+
+Examples:
+
+- visual appearance
+- intuition
+- first impression
+- perceived sturdiness
+- popularity
+
+These are reasonable proxies under uncertainty.
+
+However,
+
+as better evidence becomes available,
+
+heuristics should gradually lose weight.
+
+Understanding the design is stronger than judging the appearance.
+
+---
+
+## 6. Continuously update beliefs.
+
+Every assumption is provisional.
+
+When stronger evidence appears,
+
+update your confidence.
+
+Changing your mind because of better evidence is not inconsistency.
+
+It is evidence-based reasoning.
+
+---
+
+# Decision Process
 
 ## Step 1 — Define the problem
 
-Clearly identify what needs to be solved.
+Clearly define what problem needs to be solved.
 
 ---
 
 ## Step 2 — Define Must-have criteria
 
-These are mandatory.
+Must-have criteria are mandatory.
 
-If an option fails one Must-have criterion,
+If an option fails any Must-have criterion,
 
 eliminate it immediately.
 
@@ -168,19 +201,19 @@ Price never compensates for failing a Must-have requirement.
 
 ## Step 3 — Define Nice-to-have criteria
 
-Compare these only after all remaining candidates satisfy every Must-have criterion.
+Compare these only after every remaining option satisfies all Must-have criteria.
 
 ---
 
-## Step 4 — Establish an initial hypothesis
+## Step 4 — Establish initial hypotheses
 
 Examples include:
 
-- expected price range
-- preferred brands
-- expected quality level
+- expected budget
+- expected brands
+- expected quality
 
-Treat assumptions as hypotheses,
+Treat these as hypotheses,
 
 never conclusions.
 
@@ -190,42 +223,46 @@ never conclusions.
 
 Research the market.
 
-Validate or invalidate assumptions.
-
 Evidence always overrides assumptions.
+
+Evidence should also replace heuristics whenever possible.
 
 ---
 
-## Step 6 — Evaluate confidence signals
+## Step 6 — Understand the design rationale
+
+Before comparing implementations,
+
+understand why different designs exist.
+
+Different designs often optimize for different constraints.
+
+Do not assume that visible complexity implies better engineering.
+
+Likewise,
+
+do not assume minimalist designs are missing important features.
+
+Understand the engineering rationale before judging the implementation.
+
+---
+
+## Step 7 — Evaluate confidence signals
 
 Some characteristics cannot easily be verified directly.
 
-Examples
+Examples include:
 
 - engineering quality
 - manufacturing consistency
-- quality control
 - long-term durability
+- quality control
 
-Brand reputation can serve as evidence,
+Brand reputation is one confidence signal.
 
-not proof.
-
-Brand increases confidence.
+It increases confidence.
 
 It never replaces evidence.
-
----
-
-## Step 7 — Compare value
-
-Never compare prices directly.
-
-Ask:
-
-> What additional value does additional cost create?
-
-Additional cost is justified only when it creates meaningful improvements in important outcomes.
 
 ---
 
@@ -233,7 +270,7 @@ Additional cost is justified only when it creates meaningful improvements in imp
 
 Not every criterion deserves equal weight.
 
-Assign weight according to the consequence of making the wrong decision.
+Assign weight according to the consequence of being wrong.
 
 ### Very High
 
@@ -243,9 +280,10 @@ Assign weight according to the consequence of making the wrong decision.
 
 ### High
 
-- productivity
+- ergonomics
 - reliability
 - durability
+- productivity
 
 ### Medium
 
@@ -255,12 +293,10 @@ Assign weight according to the consequence of making the wrong decision.
 ### Low
 
 - appearance
-- cosmetic features
+- aesthetics
 - trends
 
 Never allow multiple low-impact advantages to outweigh one high-impact disadvantage.
-
-The importance of a criterion is determined by the consequence of being wrong, not by how noticeable the difference is.
 
 ---
 
@@ -270,11 +306,11 @@ Find the strongest candidate.
 
 Every alternative must demonstrate either:
 
-- substantially lower cost while maintaining equivalent core performance
+- substantially better value
 
 or
 
-- substantially better performance at similar cost
+- substantially better performance
 
 Otherwise,
 
@@ -282,11 +318,23 @@ keep the benchmark.
 
 ---
 
-## Step 10 — Account for research cost
+## Step 10 — Compare trade-offs
+
+Every decision has trade-offs.
+
+Explicitly identify:
+
+- what you gain
+- what you lose
+- why the trade-off is acceptable
+
+---
+
+## Step 11 — Account for research cost
 
 Research consumes resources.
 
-Continue researching only when additional information is expected to materially improve decision quality.
+Continue researching only while new information is expected to materially improve the decision.
 
 Otherwise,
 
@@ -294,27 +342,35 @@ stop.
 
 ---
 
-## Step 11 — Decision sufficiency
+## Step 12 — Make the decision
 
 A decision is sufficient when:
 
-- all Must-have criteria are satisfied
-- evidence is sufficient
-- uncertainty is reasonably low
-- confidence is high
-- no significantly stronger alternative exists
+- Must-have criteria are satisfied
+- uncertainty is acceptably low
+- confidence is sufficiently high
+- no clearly superior alternative exists
 
-At this point,
+Stop researching.
 
-stop researching.
+Decide.
 
-Make the decision.
-
-Move on.
+Move forward.
 
 ---
 
 # Decision Rules
+
+## Evidence Rule
+
+Evidence always overrides:
+
+- assumptions
+- intuition
+- heuristics
+- first impressions
+
+---
 
 ## Brand Rule
 
@@ -322,87 +378,157 @@ Brand is evidence.
 
 Brand is not status.
 
-It increases confidence.
+A strong brand increases confidence because it often reflects:
 
-It does not replace objective evidence.
+- engineering capability
+- accumulated experience
+- quality systems
+- real-world validation
 
----
-
-## Premium Rule
-
-Premium pricing must create meaningful additional value.
-
-Higher price alone is not evidence.
+Brand never replaces objective evidence.
 
 ---
 
-## Budget Rule
+## Heuristic Rule
 
-Lower prices do not automatically create better value.
+Heuristics are useful only until stronger evidence becomes available.
 
-Compromising important outcomes often increases total cost.
+Replace intuition with understanding whenever possible.
 
 ---
 
-## Evidence Rule
+## Convergence Rule
 
-Recommendations should never rely solely on:
+When multiple independent high-quality manufacturers adopt the same design across different products and price ranges,
 
-- popularity
-- marketing
-- feature count
-- premium positioning
+treat this convergence as evidence that the design likely serves a valid engineering purpose.
 
-Evidence always comes first.
+Convergence does not prove superiority.
+
+It significantly reduces the likelihood that the design is arbitrary or merely cost-cutting.
+
+---
+
+## Decision Quality Rule
+
+Judge decisions by the quality of reasoning,
+
+not merely by outcomes.
+
+Good outcomes can result from poor decisions.
+
+Poor outcomes can result from good decisions.
+
+A decision is good if it was rational given the information available at the time.
+
+---
+
+## Decision Defensibility Rule
+
+Every important decision should be explainable.
+
+At any point in the future,
+
+you should be able to explain:
+
+- the problem
+- the evidence
+- the assumptions
+- what changed
+- the trade-offs
+- why the final decision was reasonable
+
+If you cannot explain your reasoning,
+
+improve the decision process.
 
 ---
 
 ## Research Rule
 
-Stop researching when the expected benefit becomes smaller than the expected cost.
+Stop researching when the expected benefit of additional information becomes smaller than the expected cost of obtaining it.
 
 Avoid analysis paralysis.
 
 ---
 
-# Decision Order
+# Decision Flow
 
-```text
 Problem
-    ↓
+
+↓
+
 Must-have Criteria
-    ↓
+
+↓
+
 Reduce Uncertainty
-    ↓
+
+↓
+
 Collect Evidence
-    ↓
+
+↓
+
+Understand Design Rationale
+
+↓
+
 Evaluate Confidence Signals
-    ↓
-Impact Weighting
-    ↓
+
+↓
+
+Weight Impact
+
+↓
+
 Establish Benchmark
-    ↓
-Compare Value
-    ↓
+
+↓
+
+Compare Trade-offs
+
+↓
+
 Estimate Future Regret
-    ↓
+
+↓
+
 Decision
-```
+
+---
+
+# Continuous Improvement
+
+This framework should improve decisions over time.
+
+As new evidence becomes available:
+
+- update assumptions
+- replace heuristics
+- recalibrate confidence
+- improve future decisions
+
+Changing your mind because of stronger evidence is not inconsistency.
+
+It is the expected behavior of an evidence-based decision process.
 
 ---
 
 # Final Principle
 
-The objective is not to make perfect decisions.
+The objective is not to always make the perfect decision.
 
-The objective is to make rational decisions based on the best available evidence.
+The objective is to make the best decision supported by the best available evidence at the time.
 
-When sufficient evidence exists,
+When sufficient evidence has been collected,
 
-stop searching,
+stop optimizing,
 
 make the decision,
 
 and move forward.
 
-Evidence always wins.
+Confidence comes not from certainty,
+
+but from knowing your decision was rational, evidence-based, and defensible.
